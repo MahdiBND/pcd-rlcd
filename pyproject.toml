@@ -1,6 +1,6 @@
 [project]
 name = "pcd-rlcd"
-version = "0.1.2"
+version = "0.1.3"
 description = "Parallel Constrained Decoding for RLCD - Reinforcement Learning for Calibrated Decisions"
 readme = "README.md"
 authors = [
