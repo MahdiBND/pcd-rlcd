@@ -30,13 +30,13 @@ It evaluates multiple schema fields in parallel instead of generating a complete
 The package defaults to:
 
 ```text
-Qwen/Qwen2.5-1.5B-Instruct
+mlx-community//Qwen2.5-1.5B-Instruct
 ```
 
 The example configuration uses:
 
 ```text
-Qwen/Qwen2.5-0.5B-Instruct-4bit
+mlx-community/Qwen2.5-0.5B-Instruct-4bit
 ```
 
 You can select a different model with the `MODEL_ID` environment variable.
@@ -136,19 +136,19 @@ Parsed JSON: {
 Set `MODEL_ID` before running your application:
 
 ```bash
-export MODEL_ID=Qwen/Qwen2.5-0.5B-Instruct-4bit
+export MODEL_ID=mlx-community/Qwen2.5-0.5B-Instruct-4bit
 ```
 
 For example:
 
 ```bash
-MODEL_ID=Qwen/Qwen2.5-0.5B-Instruct-4bit python example.py
+MODEL_ID=mlx-community/Qwen2.5-0.5B-Instruct-4bit python example.py
 ```
 
 If `MODEL_ID` is not set, the engine uses:
 
 ```text
-Qwen/Qwen2.5-1.5B-Instruct
+mlx-community/Qwen2.5-1.5B-Instruct
 ```
 
 The selected model must be compatible with the active inference backend.
