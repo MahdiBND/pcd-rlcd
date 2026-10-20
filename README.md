@@ -145,6 +145,14 @@ For example:
 MODEL_ID=mlx-community/Qwen2.5-0.5B-Instruct-4bit python example.py
 ```
 
+Small Models
+
+```text
+`mlx-community/Qwen3.5-2B-OptiQ-4bit` 1.5GB
+`mlx-community/Qwen3.5-2B-MLX-8bit` 2.6GB
+`mlx-community/Qwen3.5-2B-MLX-bf16` 4.43GB
+```
+
 If `MODEL_ID` is not set, the engine uses:
 
 ```text
